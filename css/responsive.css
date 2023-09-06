@@ -1,0 +1,76 @@
+@media (max-width: 1116px) {
+    body {
+      transform: scale(0.9); 
+      transform-origin: center center;
+    }
+}
+
+@media (max-width: 1003px) {
+    body {
+      transform: scale(0.8); 
+      transform-origin: center center;
+    }
+}
+
+@media (max-width: 920px) {
+    body {
+      transform: scale(0.7); 
+      transform-origin: center center;
+    }
+}
+
+@media (max-width: 782px) {
+  .card {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 327px;
+    height: 780px;
+  } 
+
+  img {
+    border-radius: 8px 8px 0px 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .img-container::before {
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  .container-left {
+    width: 327px;
+    align-items: center;
+    border-radius: 0px 0px 8px 8px;
+  }
+
+  .title {
+    width: 264px;
+    text-align: center;
+    font-size: 28px;
+    margin-top: -40px;
+  }
+
+  .description {
+    width: 264px;
+    text-align: center;
+  }
+
+  .move-element {
+    height: 468px;
+    margin-right: 72px;
+  } 
+
+  .marks {
+    width: 264px;
+    height: 220px;
+    margin-top: 40px;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+  }
+
+  .attribution { 
+    font-size: 10px; 
+  }
+
+}
